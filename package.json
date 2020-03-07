@@ -1,0 +1,28 @@
+{
+  "name": "socket.io-redis-multi-device",
+  "version": "1.0.0",
+  "description": "웹과 앱 서비스에서 세션 연결 테스트",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --exec 'DEBUG=socket.io:* node .'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verycosy/socket.io-redis-multi-device.git"
+  },
+  "author": "Jinho Jang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verycosy/socket.io-redis-multi-device/issues"
+  },
+  "homepage": "https://github.com/verycosy/socket.io-redis-multi-device#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0",
+    "socket.io-redis": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
